@@ -3,8 +3,8 @@
 * Author: @mrwigster / trulycode.com
 */
 window.onload=function() {
-  // Month,Day,Year,Hour,Minute,Second
-  upTime('jan,01,2014,00:00:00'); // ****** Change this line!
+
+  upTime(new Date()); // ****** Change this line!
 }
 function upTime(countTo) {
   now = new Date();
