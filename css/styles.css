@@ -4,9 +4,7 @@
 	text-align: center;
 }
 body {
-	background: black url(pictures/matrix.jpg) top left no-repeat;
-	width: 95%;
-	text-align: center;
+	background: black;
 }
 
 section img {
@@ -29,15 +27,7 @@ section button{
 	left: 45%;
 }
 /* Counter style */
-footer {
-	text-align: center;
-	padding-top: 10px;
-
-}
-#counter p {
-	margin-left: auto;
-	margin-right: auto;
-}
 #countup p {
+	color: green;
 	display: inline-block;
 }
