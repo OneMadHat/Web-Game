@@ -20,11 +20,14 @@ h3 {
 }
 
 /* Button style */
-section button{
+button, input {
 	color: black;
+	width: 10%;
+}
+section button, section input{
 	float: left;
 	position: relative;
-	left: 45%;
+	left: 40%;
 }
 /* Counter style */
 #countup p {
