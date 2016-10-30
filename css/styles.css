@@ -1,30 +1,43 @@
 /* Body style */
-/*body {
-	background-image: url("matrix.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
+* {
+	color:red;
+	text-align: center;
+}
+body {
+	background: black url(pictures/matrix.jpg) top left no-repeat;
 	width: 95%;
-	min-width: 1000px;
-	max-width: 1400px;
-}*/
+	text-align: center;
+}
 
 section img {
 	display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    float: none;
 }
 
 /* Header styles */
-header h3 {
+h3 {
 	text-align: center;
 }
 
 /* Button style */
-
+section button{
+	color: black;
+	float: left;
+	position: relative;
+	left: 45%;
+}
 /* Counter style */
+footer {
+	text-align: center;
+	padding-top: 10px;
+
+}
+#counter p {
+	margin-left: auto;
+	margin-right: auto;
+}
 #countup p {
 	display: inline-block;
-	background: white;
-	margin: 0 0 20px;
 }
