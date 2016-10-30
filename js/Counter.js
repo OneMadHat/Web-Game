@@ -4,7 +4,7 @@
 */
 window.onload=function() {
 
-  upTime(new Date()); // ****** Change this line!
+  upTime(new Date());
 }
 function upTime(countTo) {
   now = new Date();
