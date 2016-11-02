@@ -26,7 +26,13 @@ h1 {
 }
 
 /* Button style */
-button, input {
+section button, section input{
+  float: left;
+  position: relative;
+  left: 40%;
+}
+
+#button button, #button input {
 	color: black;
 	width: 10%;
 	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -51,11 +57,10 @@ button, input {
   background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 }
 
-section button, section input{
-	float: left;
-	position: relative;
-	left: 40%;
+#GSbutton input, #GSbutton button {
+
 }
+
 
 /*section button, section input{
 	background: #5c5c5c;
