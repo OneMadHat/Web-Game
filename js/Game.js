@@ -8,12 +8,11 @@ switch(x) {
 		document.getElementById('img').innerHTML += '<img src="pictures/start.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 		document.getElementById('button').innerHTML = "";
-		document.getElementById('buttontest').innerHTML = "";
+		document.getElementById('GSbutton').innerHTML = "";
 
-		document.getElementById('buttontest').innerHTML += '<input type="button" value="Use Kali" onclick="GS(2);" />';
-		document.getElementById('buttontest').innerHTML += '<input type="button" value="Run away screaming" onclick="GS(3);" />';
-		document.getElementById('buttontest').innerHTML += '<input type="button" value="die die die" onclick="GS(4);" />';
-
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Use Kali" onclick="GS(2);" />';
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Run away screaming" onclick="GS(3);" />';
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="die die die" onclick="GS(4);" />';
 		break;
 
 	case 2:
