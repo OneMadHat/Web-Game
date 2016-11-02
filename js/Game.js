@@ -1,10 +1,5 @@
 function GS(x){
 
-document.getElementById('img').innerHTML = "";
-document.getElementById('img').innerHTML += '<script>';
-document.getElementById('img').innerHTML += '<img src="pictures/Hacked.jpg" alt="img" />';
-document.getElementById('img').innerHTML += '</script>';
-
 switch(x) {
 
 	case 1:
