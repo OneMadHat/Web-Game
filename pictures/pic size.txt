@@ -1,0 +1,2 @@
+kali res = 1024 x 768 (4:3)
+picture resize to 65%

@@ -58,7 +58,8 @@ section button, section input{
 }
 
 #GSbutton input, #GSbutton button {
-
+  margin:auto;
+  display:block;
 }
 
 

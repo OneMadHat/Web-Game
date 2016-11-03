@@ -5,19 +5,28 @@ switch(x) {
 	case 1:
 		document.getElementById('img').innerHTML = "";
 		document.getElementById('img').innerHTML += '<script>';
-		document.getElementById('img').innerHTML += '<img src="pictures/start.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS1.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 		document.getElementById('button').innerHTML = "";
 		document.getElementById('GSbutton').innerHTML = "";
 
-		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Use Kali" onclick="GS(2);" />';
-		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Run away screaming" onclick="GS(3);" />';
-		document.getElementById('GSbutton').innerHTML += '<input type="button" value="die die die" onclick="GS(4);" />';
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Use Terminal" onclick="GS(2);" />';
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Use WireShark" onclick="GS(3);" />';
 		break;
 
 	case 2:
+		document.getElementById('img').innerHTML = "";
+		document.getElementById('img').innerHTML += '<script>';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS2.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '</script>';
+		break;
 
 	case 3:
+		document.getElementById('img').innerHTML = "";
+		document.getElementById('img').innerHTML += '<script>';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS3.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '</script>';
+		break;
 
 	case 4:
 
