@@ -21,17 +21,17 @@
 
       <header>
       		<h1>Hacker Mystery</h1>
-      		<p>Your company is a victim of a malicious cyber attack. Your job is to investigate and find out where this attack is coming from.
-      		You will be faced with many decisions all leading to a different outcome. If you choose to pursue the investigation click <b>Begin</b>.
 
-      		</p>
+            <div id="story">
+      		    <p>Your company is a victim of a malicious cyber attack. Your job is to investigate and find out where this attack is coming from.
+      		    You will be faced with many decisions all leading to a different outcome. If you choose to pursue the investigation click <b>Begin</b>.
+      		    </p>
+            </div>
       </header>
 
       <section>
          <div id="countup">
             <p>It's been</p>
-            <p id="days">00</p>
-            <p class="timeRefDays">days</p>
             <p id="hours">00</p>
             <p class="timeRefHours">hours</p>
             <p id="minutes">00</p>
@@ -42,22 +42,24 @@
          </div>
 
          <div id="img">
-
-               <img src="pictures/Hacked.jpg" alt="img" />
-
+            <img src="pictures/Hacked.jpg" alt="img" />
          </div>
             
          <div id="button">
-
-            <input type="button" value="Begin" onclick="GS(1);" />
+            <input type="button" value="Begin" onclick="GS(0, 0, 'start');" />
             
             <form action="Quit.htm">
                <button type="submit"> I QUIT </button>
             </form>
          </div>
 
-         <div id="GSbutton">
+         <div>
+            <form action="Quit.htm" id="iquit">
+               
+            </form>
+         </div>
 
+         <div id="GSbutton">
 
          </div>
 
