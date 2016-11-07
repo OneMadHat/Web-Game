@@ -27,7 +27,7 @@ switch(x) {
 		/* WireShark Game Screen 1 */
 		document.getElementById('img').innerHTML = "";
 		document.getElementById('img').innerHTML += '<script>';
-		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS3.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS1W.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 
 		document.getElementById('GSbutton').innerHTML = "";
@@ -85,7 +85,7 @@ switch(z) {
 		/* Terminal Game Screen 1 */
 		document.getElementById('img').innerHTML = "";
 		document.getElementById('img').innerHTML += '<script>';
-		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS2.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS1T.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 
 		document.getElementById('GSbutton').innerHTML = "";
@@ -96,7 +96,7 @@ switch(z) {
 	case 2:
 		document.getElementById('img').innerHTML = "";
 		document.getElementById('img').innerHTML += '<script>';
-		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS4.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS2T.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 
 		document.getElementById('GSbutton').innerHTML = "";
@@ -107,7 +107,7 @@ switch(z) {
 	case 3:
 		document.getElementById('img').innerHTML = "";
 		document.getElementById('img').innerHTML += '<script>';
-		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS5.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS3T.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 
 		document.getElementById('GSbutton').innerHTML = "";
