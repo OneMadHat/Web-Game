@@ -30,11 +30,10 @@ section button, section input{
 
 }
 
-#button button, #button input, #GSbutton input, #GSbutton button, #WIN button, #Ebutton button, #iquit button {
+#button button, #button input, #WIN button {
   float: left;
   position: relative;
   left: 40%;
-
 	color: black;
 	width: 10%;
 	text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
@@ -44,7 +43,6 @@ section button, section input{
   overflow: hidden;
   display: inline-block;
   text-align: center;
-/*  line-height: 58px;*/
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -55,10 +53,47 @@ section button, section input{
   background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 }
 
-/*#GSbutton input, #GSbutton button {
-  margin:auto;
-  display:block;
-}*/
+#GSbutton input, #GSbutton button, #iquit button {
+  float: left;
+  position: relative;
+  left: 35%;
+  color: black;
+  width: 10%;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  height: 58px;
+  margin: 50px 0 0 50px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  white-space: normal !important;
+  line-height: normal !important;
+
+  /*Gradient*/
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+
+#Ebutton button {
+  color: black;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  height: 58px;
+  margin: 50px 0 0 50px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  white-space: normal !important;
+  line-height: normal !important;
+
+  /*Gradient*/
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
 
 /* Counter style */
 #countup p {
