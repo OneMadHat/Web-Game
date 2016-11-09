@@ -24,12 +24,12 @@ function upTime(countTo) {
     clearTimeout(upTime.to);
     upTime.to=setTimeout(function(){ upTime(countTo); },1000);
   /* Tells the user they took to long and lost */  
-    if(secs == 2){
+/*    if(secs == 2){
         document.getElementById('scream').innerHTML = "";
-        document.getElementById('scream').innerHTML += '<iframe src="video/Scream.mp4" frameborder="0" allowfullscreen></iframe>';
+        document.getElementById('scream').innerHTML += '<iframe width="1200" src="video/Scream.mp4" frameborder="0" allowfullscreen></iframe>';
         clearInterval(upTime);
         test = 2;
         
-    }
+    }*/
   }
 }

@@ -10,7 +10,7 @@ if (z=="start") {
 		/* button change */
 		document.getElementById('button').innerHTML = "";
 		/* story cahnge */
-		document.getElementById('story').innerHTML = '<p>This is a test to see if it works correcly</p>'
+		document.getElementById('story').innerHTML = '<p>You log into Kali to figure out what the Hacker took and inspect deeper. You can use the Terminal to get current system info. or you can use Wireshark to see all incoming and outgoing packets. Choose wisely as you are on the clock.</p>'
 		/* iquit change */
 		document.getElementById('iquit').innerHTML += '<button type="submit"> I QUIT </button>'
 		/* GSbutton change */
@@ -31,7 +31,7 @@ switch(x) {
 		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS1W.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 		/* Story board */
-		document.getElementById('story').innerHTML = "???";
+		document.getElementById('story').innerHTML = "You open Wireshark and you come to a revelation. The attack has already happened. You need to see who they are, what they took and where are they from.";
 		/* GSbutton change */
 		document.getElementById('GSbutton').innerHTML = "";
 		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Use Something that works" onclick="GS(0,1);" />';
@@ -56,7 +56,7 @@ switch(y) {
 		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS1T.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 		/* Story board */
-		document.getElementById('story').innerHTML = "???";
+		document.getElementById('story').innerHTML = "You open a Terminal and it is time to view those logs and see who was here or you can Ping Google to make sure you are still on-line.";
 		/* GSbutton change */
 		document.getElementById('GSbutton').innerHTML = "";
 		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Type in ifconfig" onclick="GS(0, 2);" />';
