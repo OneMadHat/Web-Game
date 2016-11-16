@@ -85,7 +85,7 @@ switch(y) {
 		document.getElementById('story').innerHTML = "???";
 		/* GSbutton change */
 		document.getElementById('GSbutton').innerHTML = "";
-		document.getElementById('GSbutton').innerHTML += '<input type="button" value="???" onclick="GS(???);" />';
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="View System logs" onclick="GS(0, 2);" />';
 		document.getElementById('GSbutton').innerHTML += '<input type="button" value="???" onclick="GS(???);" />';		
 	break;
 
@@ -98,6 +98,8 @@ switch(y) {
 		document.getElementById('story').innerHTML = "You launch Tracerout to locate where they are from and that happened to be a poor decision.";
 		/* GSbutton change */
 		document.getElementById('GSbutton').innerHTML = "";
+		/* iquit change */
+		document.getElementById('iquit').innerHTML = ''
 	break;
 
 	case 5:
@@ -109,6 +111,8 @@ switch(y) {
 		document.getElementById('story').innerHTML = "You try to hack them and that chose to be a poor decision.";
 		/* GSbutton change */
 		document.getElementById('GSbutton').innerHTML = "";
+		/* iquit change */
+		document.getElementById('iquit').innerHTML = ''
 	break;
 
 }

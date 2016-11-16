@@ -8,7 +8,7 @@ window.onload=function() {
   upTime(new Date());
 }
 function upTime(countTo) {
-  if(test <= 1){
+  if(test == 1){
     now = new Date();
     countTo = new Date(countTo);
     difference = (now-countTo);
