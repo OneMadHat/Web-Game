@@ -92,7 +92,7 @@ switch(y) {
 	case 4:
 		document.getElementById('img').innerHTML = "";
 		document.getElementById('img').innerHTML += '<script>';
-		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS3T.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS45T.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 		/* Story board */
 		document.getElementById('story').innerHTML = "You launch Tracerout to locate where they are from and that happened to be a poor decision.";
@@ -103,7 +103,7 @@ switch(y) {
 	case 5:
 		document.getElementById('img').innerHTML = "";
 		document.getElementById('img').innerHTML += '<script>';
-		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS3T.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS45T.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 		/* Story board */
 		document.getElementById('story').innerHTML = "You try to hack them and that chose to be a poor decision.";
