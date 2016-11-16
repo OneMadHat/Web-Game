@@ -59,7 +59,7 @@ switch(y) {
 		document.getElementById('story').innerHTML = "You open a Terminal and it is time to view those logs and see who was here or you can Ping Google to make sure you are still on-line.";
 		/* GSbutton change */
 		document.getElementById('GSbutton').innerHTML = "";
-		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Type in ifconfig" onclick="GS(0, 2);" />';
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="View System logs" onclick="GS(0, 2);" />';
 		document.getElementById('GSbutton').innerHTML += '<input type="button" value="Ping google.com" onclick="GS(0, 3);" />';
 		break;
 
@@ -69,11 +69,11 @@ switch(y) {
 		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS2T.jpg" alt="img" />';
 		document.getElementById('img').innerHTML += '</script>';
 		/* Story board */
-		document.getElementById('story').innerHTML = "???";
+		document.getElementById('story').innerHTML = "You find an unknown individual in the logs. You can try and run TraceRoute on them to see where they are from or you can try and hack them to return the favor. There is always the smarter option. ";
 		/* GSbutton change */
 		document.getElementById('GSbutton').innerHTML = "";
-		document.getElementById('GSbutton').innerHTML += '<input type="button" value="???" onclick="GS(???);" />';
-		document.getElementById('GSbutton').innerHTML += '<input type="button" value="???" onclick="GS(???);" />';		
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="TraceRoute" onclick="GS(0, 4);" />';
+		document.getElementById('GSbutton').innerHTML += '<input type="button" value="HACK THEM!!" onclick="GS(0, 5);" />';		
 		break;
 
 	case 3:
@@ -87,6 +87,28 @@ switch(y) {
 		document.getElementById('GSbutton').innerHTML = "";
 		document.getElementById('GSbutton').innerHTML += '<input type="button" value="???" onclick="GS(???);" />';
 		document.getElementById('GSbutton').innerHTML += '<input type="button" value="???" onclick="GS(???);" />';		
+	break;
+
+	case 4:
+		document.getElementById('img').innerHTML = "";
+		document.getElementById('img').innerHTML += '<script>';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS3T.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '</script>';
+		/* Story board */
+		document.getElementById('story').innerHTML = "You launch Tracerout to locate where they are from and that happened to be a poor decision.";
+		/* GSbutton change */
+		document.getElementById('GSbutton').innerHTML = "";
+	break;
+
+	case 5:
+		document.getElementById('img').innerHTML = "";
+		document.getElementById('img').innerHTML += '<script>';
+		document.getElementById('img').innerHTML += '<img src="pictures/Game Screens/GS3T.jpg" alt="img" />';
+		document.getElementById('img').innerHTML += '</script>';
+		/* Story board */
+		document.getElementById('story').innerHTML = "You try to hack them and that chose to be a poor decision.";
+		/* GSbutton change */
+		document.getElementById('GSbutton').innerHTML = "";
 	break;
 
 }
