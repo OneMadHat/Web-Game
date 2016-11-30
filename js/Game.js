@@ -85,11 +85,10 @@ switch(y) {
 		Dimg.innerHTML += '<img src="pictures/Game Screens/GS3T.jpg" alt="img" />';
 		Dimg.innerHTML += '</script>';
 		/* Story board */
-		Dstory.innerHTML = "???";
+		Dstory.innerHTML = "You decide to ping google and you find that you are still online and ready for some payback. All thats left to do now is view the logs and find out the IP of who hacked you";
 		/* GSbutton change */
 		DGSbutton.innerHTML = "";
 		DGSbutton.innerHTML += '<input type="button" value="View System logs" onclick="GS(0, 2);" />';
-		DGSbutton.innerHTML += '<input type="button" value="???" onclick="GS(???);" />';		
 	break;
 
 	case 4:
