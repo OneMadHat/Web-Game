@@ -2,10 +2,12 @@ function GS(x, y, z){
 var Dimg = document.getElementById('img');
 var Dstory = document.getElementById('story');
 var Diquit = document.getElementById('iquit');
+var Dwin = document.getElementById('win');
 var DGSbutton = document.getElementById('GSbutton');
 
 /* Sarting Game Screen */
 if (z=="start") {
+		/*img change*/
 		Dimg.innerHTML = "";
 		Dimg.innerHTML += '<script>';
 		Dimg.innerHTML += '<img src="pictures/Game Screens/GS1.jpg" alt="img" />';
@@ -28,7 +30,7 @@ switch(x) {
 		break;
 
 	case 1:
-		/* WireShark Game Screen 1 */
+		/*img change*/
 		Dimg.innerHTML = "";
 		Dimg.innerHTML += '<script>';
 		Dimg.innerHTML += '<img src="pictures/Game Screens/GS1W.jpg" alt="img" />';
@@ -54,6 +56,7 @@ switch(y) {
 		break;
 
 	case 1:
+		/*img change*/
 		Dimg.innerHTML = "";
 		Dimg.innerHTML += '<script>';
 		Dimg.innerHTML += '<img src="pictures/Game Screens/GS1T.jpg" alt="img" />';
@@ -67,6 +70,7 @@ switch(y) {
 		break;
 
 	case 2:
+		/*img change*/
 		Dimg.innerHTML = "";
 		Dimg.innerHTML += '<script>';
 		Dimg.innerHTML += '<img src="pictures/Game Screens/GS2T.jpg" alt="img" />';
@@ -76,10 +80,11 @@ switch(y) {
 		/* GSbutton change */
 		DGSbutton.innerHTML = "";
 		DGSbutton.innerHTML += '<input type="button" value="TraceRoute" onclick="GS(0, 4);" />';
-		DGSbutton.innerHTML += '<input type="button" value="HACK THEM!!" onclick="GS(0, 5);" />';		
+		Dwin.innerHTML += '<button type="submit"> HACK THEM!!! </button>'	
 		break;
 
 	case 3:
+		/*img change*/
 		Dimg.innerHTML = "";
 		Dimg.innerHTML += '<script>';
 		Dimg.innerHTML += '<img src="pictures/Game Screens/GS3T.jpg" alt="img" />';
@@ -92,29 +97,19 @@ switch(y) {
 	break;
 
 	case 4:
+		/*img change*/
 		Dimg.innerHTML = "";
 		Dimg.innerHTML += '<script>';
-		Dimg.innerHTML += '<img src="pictures/Game Screens/GS45T.jpg" alt="img" />';
+		Dimg.innerHTML += '<img src="pictures/Game Screens/GS4T.jpg" alt="img" />';
 		Dimg.innerHTML += '</script>';
 		/* Story board */
 		Dstory.innerHTML = "You launch Tracerout to locate where they are from and that happened to be a poor decision.";
 		/* GSbutton change */
 		DGSbutton.innerHTML = "";
 		/* iquit change */
-		Diquit.innerHTML = ''
-	break;
-
-	case 5:
-		Dimg.innerHTML = "";
-		Dimg.innerHTML += '<script>';
-		Dimg.innerHTML += '<img src="pictures/Game Screens/GS45T.jpg" alt="img" />';
-		Dimg.innerHTML += '</script>';
-		/* Story board */
-		Dstory.innerHTML = "You try to hack them and that chose to be a poor decision.";
-		/* GSbutton change */
-		DGSbutton.innerHTML = "";
-		/* iquit change */
-		Diquit.innerHTML = ''
+		Diquit.innerHTML = '';
+		/* win change */
+		Dwin.innerHTML = '';
 	break;
 
 }

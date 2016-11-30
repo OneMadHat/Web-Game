@@ -30,7 +30,7 @@ section button, section input{
 
 }
 
-#button button, #button input, #WIN button {
+#button button, #button input{
   float: left;
   position: relative;
   left: 40%;
@@ -53,7 +53,7 @@ section button, section input{
   background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 }
 
-#GSbutton input, #GSbutton button, #iquit button {
+#GSbutton input, #GSbutton button, #iquit button, #win button {
   float: left;
   position: relative;
   left: 35%;
